@@ -1,0 +1,658 @@
+*
+{
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  
+}
+/*html {
+  scroll-behavior: smooth;
+}*/
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    overflow: hidden;
+}
+.pt-6
+{
+    padding-top: 80px;
+}
+nav
+{
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    
+}
+.navbar-brand 
+{
+    padding: 0;
+}
+.navbar
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    font-weight: 400;
+    font-size: 15px;
+}
+.home
+{
+    height: 100vh;
+}
+.home .carousel-inner
+{
+    height: 100vh;
+}
+.home .carousel-item img
+{
+    width: 100%;
+    height: 100vh;
+}
+.active
+{
+    color: #f25454 !important;
+}
+ul li .nav-link
+{
+    -webkit-transition: all 0s;
+    transition: all 0s;
+    color: #fff;
+}
+.home .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 55%;
+    bottom: 0;
+    width: 5%;
+    height: 7%;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+.home .carousel-control-next {
+    border: 0.2px solid #ccc;
+    position: absolute;
+    top: 43.3%;
+    left: -1;
+    right: 95%;
+}
+.home .carousel-control-next:hover , .home .carousel-control-prev:hover {
+    background-color: #fff;
+}
+.home .carousel-control-next:hover span , .home .carousel-control-prev:hover span {
+    color: #f25454;
+}
+.home .carousel-control-next span , .home .carousel-control-prev span {
+    color: #fff;
+    font-size: 25px;
+}
+
+.home .carousel-control-prev {
+    border: 0.2px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: -1;
+}
+.grid-item
+{
+    -webkit-transition: all 0s;
+    transition: all 0s;
+  
+}
+.grid
+{
+    margin: 0 auto;
+}
+.progress-bar
+{
+    background-color: #f25454;
+}
+.progress
+{
+    height: 5px;
+    line-height: 12px;
+    margin-bottom: 20px;
+}
+.home
+{
+    position: relative;
+}
+
+.home .caption 
+{
+    position: absolute;
+    top:40vh;
+    left:15vw;
+    color:#fff;
+    font-weight: 800;
+    font-size: 55px;
+    width: 50%;
+    text-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+.comp1 h2
+{
+    margin-bottom: 10px;
+}
+.comp1 hr
+{
+    width: 40px;
+    background-color: #000;
+}
+.comp1:hover hr
+{
+    width:60px;
+}
+p , span
+{
+    color: #777;
+    font-weight: 100;
+}
+.image
+{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.subteam 
+{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(242, 84, 84, 0.85);
+    opacity: 0;
+}
+.sigleteam:hover h3,.sigleteam:hover .subteam  
+{
+    color:#f25454;
+    opacity: 1;
+}
+.sigleteam:hover img
+{
+    -webkit-transform: scale(1.5,1.5);
+    transform: scale(1.15,1.15);
+}
+.subteam i
+{
+    position: relative;
+    top:50%;
+    color:#fff;
+    margin: 4px;
+    
+}
+.image2
+{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   
+}
+.sub2
+{
+     padding: 2px;
+    position: absolute;
+    top:0;
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transform: scale(0.95,0.95);
+    transform: scale(0.95,0.95);
+    
+}
+.sub2 h5
+{
+    position: absolute;
+    top:50%;
+    left:30%;
+    text-align: center
+    
+}
+.sub2 p
+{
+    position: absolute;
+    top:60%;
+    left:30%;
+    text-align: center
+    
+}
+.image2:hover .sub2
+{
+    opacity: 1;
+}
+.image2:hover h5
+{
+    top:48%
+}
+.image2:hover p
+{
+    top:61%;
+}
+.image2:hover img
+{
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.project .nav-tabs .nav-link.active 
+{
+    color: #f25454;
+    background-color: transparent;
+    border:0.5px solid;
+}
+.project .nav-tabs .nav-link {
+    font-weight: 100;
+    color: #282828;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.project .nav-tabs
+{
+    border: none;
+}
+.question
+{
+    background-color: #fff;
+    
+}
+.subqu
+{
+   padding: 20px; 
+}
+.mass
+{
+    font-weight: 100;
+    padding: 10px 20px;
+    background-color: #f25454;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.services i, .count i
+{
+    color: #f25454;
+    margin-right: 20px;
+   font-size: 30px;
+}
+.media
+{
+    cursor: pointer;
+}
+.media:hover h5
+{
+   color: #f25454;
+}
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 -> 9/16x100 */
+  overflow: hidden;
+}
+.video {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+    
+.count
+{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-bottom: 20px;
+   
+}
+.count h2
+{
+    margin: 20px 0px;
+     font-size: 45px;
+    
+}
+.col-20 img
+{
+    width: 90%;
+}
+.count p
+{
+    color: #fff;
+}
+.count .bord
+{
+    border-right:1px solid rgba(255, 255, 255, 0.2);
+}
+.red-blk:hover 
+{
+    color:000;
+}
+.blk-red
+{
+    color:#000;
+     cursor: pointer;
+        -webkit-transition: all 0.1;
+    transition: all 0.1;
+}
+.blk-red:hover
+{
+    color:#f25454;
+}
+.red-blk
+{
+    -webkit-transition: all 0.1;
+    transition: all 0.1;
+    cursor: pointer;
+     color:#f25454;
+}
+.sub-blog2 h3
+{
+    font-weight: 700;
+}
+.sub-blog
+{
+    position: relative;
+    overflow: hidden;
+}
+.sub-blog::after
+{
+      content: "PHOTOGRAPHY";
+    position: absolute;
+    right: -1;
+    top: 9%;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 100;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: #f25454;
+}
+.img2
+{
+    overflow: hidden;
+}
+.img2:hover img
+{
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    opacity: 0.5;
+}
+.aya 
+{
+    width: 80%;
+    margin: auto;
+}
+.slick-slide {
+   height:auto !important;
+}
+.slick-track
+{
+    padding: 20px;
+}
+.contact
+{
+    padding-bottom: 40px;
+}
+.contact .media i
+{
+    color: #f25454;
+    font-size: 31px;
+    margin-right: 27px;
+}
+.form-control:focus
+{
+    border-color: transparent;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(242, 84, 84, 0.58);
+    box-shadow: 0 0 0 0.2rem rgba(242, 84, 84, 0.58);
+}
+
+.services2 .carousel-item p
+{
+    margin: auto;
+    font-size: 25px;
+    font-weight: 400;
+}
+.cogs
+{
+    cursor: pointer;
+    position: fixed;
+    top: 20%;
+    left: -16px;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    z-index: 55555;
+}
+.cogs i {
+ 
+    background-color: #f25454;
+    color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius:3px;
+    -webkit-box-shadow: 0 1px 4px #f2545494;
+    box-shadow: 0 1px 4px #f2545494;
+}
+label
+{
+    color:#000;
+}
+.comp1 h2
+{
+    position: relative;
+}
+.about
+{
+ border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.about .comp1 h2::after
+{
+    content: "A";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.team .comp1 h2::after
+{
+    content: "O";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.project .comp1 h2::after
+{
+    content: "R";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.services .comp1 h2::after
+{
+    content: "S";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.services2 .comp1 h2::after
+{
+    content: "C";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.slick-list
+{
+    padding: 10px 0px !important;
+}
+.blog .comp1 h2::after
+{
+    content: "B";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.contact .comp1 h2::after
+{
+    content: "G";
+    position: absolute;
+    bottom: -15px;
+    font-weight: 700;
+    right: 48%;
+    opacity: 0.08;
+    font-size: 70px;
+}
+.mass:hover{
+    text-decoration: none;
+color:#fff;
+    background-color: #bc2d2d;
+}
+.col-20.slick-slide.slick-current.slick-active.slick-center
+{
+    opacity: 1;
+    -webkit-transform: scale(1.4) translateY(10px);
+    transform: scale(1.4) translateY(10px);
+
+}.col-20.slick-slide.slick-current.slick-active.slick-center:focus
+{
+    outline: none;
+}
+/*.col-20.slick-slide.slick-current.slick-active.slick-center img
+{
+    padding: 15px;
+}*/
+.slick-slide
+{
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.col-20.slick-slide.slick-active
+{
+    opacity: 0.7;
+}
+.col-20.slick-slide.slick-active:focus
+{
+    outline: none;
+}
+.center
+{
+    cursor: pointer;
+}
+.responsive{
+    padding: 14px;
+    margin: auto;
+    width: 80%;
+}
+.slick-slide img
+{
+    padding: 20px;
+}
+.slick-slide img:focus
+{
+       outline: none;
+   
+}
+.blog2
+{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    
+}
+.blog2 img
+{
+    width: 70%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.blog2 img:hover
+{
+    opacity: 1;
+}
+.spinner {
+    text-align: center;
+  width: 100%;
+    height: 100vh;
+    background-color: #f25454;
+    z-index: 548787877;
+    position: relative;
+}
+.myweb
+{
+overflow: hidden;
+height: 100vh;
+}
+.spinner > div {
+  background-color: #fff;
+  height: 20%;
+  width: 6px;
+  position: relative;
+  top:50vh;
+  display: inline-block;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+p::-moz-selection
+{
+    color: #fff;
+    background-color: #f25454;
+}
+p::selection
+{
+    color: #fff;
+    background-color: #f25454;
+}
