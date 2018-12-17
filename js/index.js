@@ -14,26 +14,6 @@ $(window).scroll(function(){
 	  }
      
   });
-/*$(window).scroll(function() {
-		var scrollDistance = $(window).scrollTop();
-         
-		$('section').each(function(i) {
-            if($(this).attr("id") != undefined)
-                {
-                     console.log($(this).attr("id"));
-                }
-            
-				if ($(this).position().top <= scrollDistance) {
-                   
-						$('ul li .nav-link').removeClass('active');
-						$('ul li .nav-link').eq(i).addClass('active');
-                   
-                }              
-		       
-})
-          
-		}).scroll(); */
-
 var nav = $('.navbar')
   , nav_height = nav.outerHeight();
 
@@ -53,27 +33,7 @@ $(window).on('scroll', function () {
              
 });
 
-     var counters = $(".counter");
-                  var countersQuantity = counters.length;
-                  var counter = [];
-
-                 for (i = 0; i < countersQuantity; i++) {
-                    counter[i] = parseInt(counters[i].innerHTML);
-                  };
-
-                  var count = function(start, value, id) {
-                    var localStart = start;
-                  var inter = setInterval(function() {
-                      if (localStart < value) {
-                        localStart++;
-                        counters[id].innerHTML = localStart;
-                      }
-                    }, 100);
-                  };
-
-                  for (j = 0; j < countersQuantity; j++) {
-                    count(0, counter[j], j);
-                  };
+   
        
    
 
@@ -188,7 +148,27 @@ $(".spinner").fadeOut(6000,function(){
 document.querySelector("body").style.overflow = "auto";
    
     });
-   
+      var counters = $(".counter");
+                  var countersQuantity = counters.length;
+                  var counter = [];
+
+                 for (i = 0; i < countersQuantity; i++) {
+                    counter[i] = parseInt(counters[i].innerHTML);
+                  };
+
+                  var count = function(start, value, id) {
+                    var localStart = start;
+                  var inter = setInterval(function() {
+                      if (localStart < value) {
+                        localStart++;
+                        counters[id].innerHTML = localStart;
+                      }
+                    }, 100);
+                  };
+
+                  for (j = 0; j < countersQuantity; j++) {
+                    count(0, counter[j], j);
+                  };
 /*    
 $(".cogs .togg").click(function(){
     $(".options").toggle(500);
